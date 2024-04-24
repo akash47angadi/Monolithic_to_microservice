@@ -11,7 +11,11 @@ function App() {
   return (
     <div>      
       <BrowserRouter>
+      <div className='flex'>
+      <div className='w-60'>
       <Navbar/>
+      </div> 
+      <div className='w-full'>
       <Routes>
         <Route path='/' element={<Search/>}/>
         <Route path='/login' element={<Login/>}/>
@@ -22,6 +26,9 @@ function App() {
         <Route path='/search/:product' element={<Search/>}/>
         <Route path='/order/:user' element={<Order/>}/>
       </Routes>
+      </div>
+      </div>
+      
       </BrowserRouter>
       
     </div>
