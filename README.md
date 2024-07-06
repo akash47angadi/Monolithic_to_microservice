@@ -9,13 +9,13 @@ This repository showcases the transformation of an e-commerce platform from a mo
 ### Frontend Service
 Manages the user interface and interaction.
 
-### User Service (UC1)
+### User Service (user)
 Handles user authentication and profile management.
 
-### Product Service (UC2)
+### Product Service (product)
 Manages product inventory, descriptions, and details.
 
-### Order Service (UC3)
+### Order Service (cart_order)
 Processes and tracks orders.
 
 ## Technologies Used
@@ -50,11 +50,11 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```bash
     cd frontend
     docker build -t yourdockerhubusername/frontend:latest .
-    cd ../uc1
+    cd ../user
     docker build -t yourdockerhubusername/uc1:latest .
-    cd ../uc2
+    cd ../product
     docker build -t yourdockerhubusername/uc2:latest .
-    cd ../uc3
+    cd ../cart_order
     docker build -t yourdockerhubusername/uc3:latest .
     ```
 
