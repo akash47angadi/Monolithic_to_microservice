@@ -43,7 +43,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. **Clone the repository**
     ```bash
     https://github.com/akash47angadi/Monolithic_to_microservice.git
-    cd CC_Monolithic_to_Micro_Services
+    cd Monolithic_to_microservice
     ```
 
 2. **Build Docker Images**
